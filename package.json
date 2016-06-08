@@ -29,7 +29,8 @@
   "dependencies": {
     "concat-stream": "^1.5.1",
     "errno": "^0.1.4",
-    "find-package-json": "^1.0.0"
+    "find-package": "^1.0.0",
+    "minimist": "^1.2.0"
   },
   "devDependencies": {
     "standard": "^7.1.2",
