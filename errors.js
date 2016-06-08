@@ -3,8 +3,8 @@
 
 const createError = require( 'errno' ).create
 
-const KeyExistsError = createError( 'NotFoundError' )
-NotFoundError.prototype.code = 'KEY_EXISTS'
+const KeyExistsError = createError( 'KeyExistsError' )
+KeyExistsError.prototype.code = 'KEY_EXISTS'
 
 module.exports = {
   KeyExistsError
