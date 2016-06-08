@@ -1,0 +1,32 @@
+{
+  "name": "pkg-add",
+  "version": "0.0.0",
+  "description": "Adds a key and value to the closest package.json",
+  "main": "index.js",
+  "bin": {
+    "pkg-add": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattstyles/pkg-add.git"
+  },
+  "keywords": [
+    "package",
+    "npm",
+    "merge",
+    "json"
+  ],
+  "author": "Matt Styles <matt@veryfizzyjelly.com> (http://github.com/mattstyles)",
+  "bugs": {
+    "url": "https://github.com/mattstyles/pkg-add/issues"
+  },
+  "homepage": "https://github.com/mattstyles/pkg-add#readme",
+  "license": "MIT",
+  "dependencies": {
+    "errno": "^0.1.4",
+    "find-package-json": "^1.0.0"
+  }
+}
