@@ -3,7 +3,7 @@
 
 > Adds a key and value to the closest package.json
 
-[![Build Status](https://travis.ci.org/mattstyles/pkg-add.svg?branch=composer)](https://travis.ci.org/mattstyles/pkg-add)
+[![Build Status](https://travis-ci.org/mattstyles/pkg-add.svg?branch=composer)](https://travis-ci.org/mattstyles/pkg-add)
 [![npm version](https://badge.fury.io/js/pkg-add.svg)](https://badge.fury.io/js/pkg-add)
 [![Dependency Status](https://david-dm.org/mattstyles/pkg-add.svg)](https://david-dm.org/mattstyles/pkg-add)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
