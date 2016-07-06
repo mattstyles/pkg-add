@@ -21,7 +21,7 @@ $ npm i -g pkg-add
 `pkg-add` is primarily a command line utility for one aspect of managing `package.json` files
 
 ```sh
-$ echo '{"foo": "bar"}' | pkg-add
+$ echo '{"foo": "bar"}' | pkg-add > package.json
 ```
 
 ## Usage
