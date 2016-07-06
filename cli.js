@@ -60,5 +60,5 @@ function merge (buf) {
 }
 
 function final (output) {
-  process.stdout.write(JSON.stringify(output))
+  process.stdout.write(JSON.stringify(output, null, 2) + '\n')
 }
